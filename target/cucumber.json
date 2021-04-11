@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-11T18:19:25.789Z",
+        "line": 4,
+        "name": "All partners should have logo, name, text",
+        "description": "",
+        "id": "partners-has-logo--name--some-text-on-given-website;all-partners-should-have-logo--name--text",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6327000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the website page",
+            "match": {
+              "location": "step_definitions.AchieveDashboardStepDefinitions.user_is_on_the_website_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 761000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks to hamburger menu",
+            "match": {
+              "location": "step_definitions.AchieveDashboardStepDefinitions.user_clicks_to_hamburger_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4126000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks to Partners",
+            "match": {
+              "location": "step_definitions.AchieveDashboardStepDefinitions.user_clicks_to_partners()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6879000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see all Partners logo, name and some text with description",
+            "match": {
+              "location": "step_definitions.AchieveDashboardStepDefinitions.user_should_see_all_partners_logo_name_and_some_text_with_description()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@partners"
+          }
+        ]
+      }
+    ],
+    "name": "Partners has logo, name, some text on given website",
+    "description": "",
+    "id": "partners-has-logo--name--some-text-on-given-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/partners.feature",
+    "tags": []
+  }
+]
